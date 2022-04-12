@@ -7,6 +7,9 @@
     <title>Admin Dashboard</title>
     <script defer src="./script.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -16,13 +19,15 @@
        </div>
        <div class="top-right">
            <img src="./images/icons8-alarm-24.png" alt="notif icon">
-           <img src="./images/icons8-user-menu-male-24.png" alt="user icon">
+           <img src="./images/userpp.jpg" alt="user icon" style="max-width: 30px; max-height: 30px;">
            <span>Morgan Oakley</span>
        </div>
        <div class="bottom-left">
-           <img src="" alt="user icon">
-           <div class="hi">Hi there,</div>
-           <div class="morgan">Morgan Oakley</div>
+           <img src="./images/userpp.jpg" alt="user icon" style="max-width: 40px; max-height: 40px;">
+          <div>
+            <div class="hi">Hi there,</div>
+            <div class="morgan" style="font-size: max(10px, 3vw); font-weight: bolder;">Morgan Oakley</div>
+            </div>
        </div>
        <div class="bottom-right">
            <button>New</button>
@@ -32,7 +37,7 @@
     </div>
     <div class="sidebar">
         <div class="logo" style="padding:10px;">
-            <img src="./images/icons8-square-50.png" alt="branding">
+            
             <h2 style="display:inline">Dashboard</h2>
         </div>
         <ul class="side-menu">
@@ -51,19 +56,115 @@
     <div class="main">
         <div class="your-projects">
             <div>Your Projects</div>
-            <div class="projects"></div>
-            <div class="projects"></div>
-            <div class="projects"></div>
-            <div class="projects"></div>
-            <div class="projects"></div>
-            <div class="projects"></div>
+            <div class="projects">
+                <div class="text">
+                    <div>Super Cool Project</div>
+                    <div>random paragraph i needed to fill for the super cool projects</div>
+                </div>
+                <div class="icons">
+                    <img src="./images/icons8-add-to-favorites-24.png" alt="fav icon">
+                    <img src="./images/icons8-add-24.png" alt="add icon">
+                    <img src="./images/icons8-share-24.png" alt="share icon">
+                </div>
+            </div>
+            <div class="projects">
+                <div class="text">
+                    <div>Less Cool Project</div>
+                    <div>random paragraph i needed to fill for the less cool projects</div>              
+                </div>
+                <div class="icons">
+                    <img src="./images/icons8-add-to-favorites-24.png" alt="fav icon">
+                    <img src="./images/icons8-add-24.png" alt="add icon">
+                    <img src="./images/icons8-share-24.png" alt="share icon">
+                </div>
+            </div>
+            <div class="projects">
+                <div class="text">
+                    <div>Important app</div>
+                    <div>random paragraph i needed to fill for the important app</div>
+                </div>
+                <div class="icons">
+                    <img src="./images/icons8-add-to-favorites-24.png" alt="fav icon">
+                    <img src="./images/icons8-add-24.png" alt="add icon">
+                    <img src="./images/icons8-share-24.png" alt="share icon">
+                </div>
+            </div>
+            <div class="projects">
+                <div class="text">
+                    <div>Easy peasy app</div>
+                    <div>random paragraph i needed to fill for the Easy peasy app</div>
+                </div>
+                <div class="icons">
+                    <img src="./images/icons8-add-to-favorites-24.png" alt="fav icon">
+                    <img src="./images/icons8-add-24.png" alt="add icon">
+                    <img src="./images/icons8-share-24.png" alt="share icon">
+                </div>
+            </div>
+            <div class="projects">
+                <div class="text">
+                    <div>Ad Blocker</div>
+                    <div>random paragraph i needed to fill for the ad blocker</div>
+                </div>
+                <div class="icons">
+                    <img src="./images/icons8-add-to-favorites-24.png" alt="fav icon">
+                    <img src="./images/icons8-add-24.png" alt="add icon">
+                    <img src="./images/icons8-share-24.png" alt="share icon">
+                </div>
+            </div>
+            <div class="projects">
+                <div class="text">
+                    <div>Money Maker</div>
+                    <div>random paragraph i needed to fill for the Money Maker</div>
+                </div>
+                <div class="icons">
+                    <img src="./images/icons8-add-to-favorites-24.png" alt="fav icon">
+                    <img src="./images/icons8-add-24.png" alt="add icon">
+                    <img src="./images/icons8-share-24.png" alt="share icon">
+                </div>
+            </div>
         </div>
         <div class="right-main">
             <div class="announcements">
                 <div>Announcements</div>
+                <div class="announcement-container">
+                <div>
+                    <div>Site Maintenance</div>
+                    <div>maintenance for a few days coming in a few weeks bro</div>
+                </div>
+                <div>
+                    <div>Community Share Day</div>
+                    <div>sharing is caring in this community today</div>
+                </div>
+                <div>
+                    <div>Updated Privacy Policy</div>
+                    <div>there is no privacy from now on haha</div>
+                </div>
+            </div>
             </div>
             <div class="trending">
                 <div>Trending</div>
+                <div class="trending-container">
+                    <div>
+                        <img src="./images/userpp.jpg" alt="user icon" class="user-icon">
+                        <div>@tegan</div>
+                        <div>world peace builder</div>
+                    </div>
+                    <div>
+                        <img src="./images/userpp.jpg" alt="user icon" class="user-icon">
+                        <div>@morgan</div>
+                        <div>Super Cool Project</div>
+                    </div>
+                    <div>
+                        <img src="./images/userpp.jpg" alt="user icon" class="user-icon">
+                        <div>@kendall</div>
+                        <div>Life Changing App</div>
+                    </div>
+                    <div>
+                        <img src="./images/userpp.jpg" alt="user icon" class="user-icon">
+                        <div>@alex</div>
+                        <div>No Traffick Maker</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
